@@ -13,6 +13,8 @@ public class Sum {
 		int second = Integer.parseInt(splitedValue[1]);
 		
 		System.out.println("Two number's sum result  =" + (first + second));
+		
+		
 	}
 
 }

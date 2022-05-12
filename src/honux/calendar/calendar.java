@@ -9,9 +9,7 @@ public class calendar {
 		String[][] weekdays = {
 				{"일", " 월", " 화", "수", " 목"," 금","토"},
 				{"---------------------------"},
-				
 		};		
-		
 		
 		
 		for (int i=0; i<weekdays.length; i++) {
@@ -32,6 +30,7 @@ public class calendar {
 			}
 			System.out.println();
 		}
+		
 	}
 
 }
