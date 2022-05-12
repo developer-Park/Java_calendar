@@ -28,8 +28,8 @@ public class Prompt {
 		calendar1 cal1 = new calendar1();
 		
 		int month = -1;
-		int year = -1;
-		int weekday = 0;
+		int year = 2017;
+	
 		while (true) {
 			System.out.println("Enter the Year. exit : -1");
 			System.out.print("YEAR> ");
@@ -42,9 +42,7 @@ public class Prompt {
 			month = scanner.nextInt();
 			
 			
-			System.out.println("First day ");
-			String str_weekday = scanner.next();
-			weekday = parseDay(str_weekday);
+			
 			
 			
 			
@@ -53,7 +51,7 @@ public class Prompt {
 				System.out.println("Error");
 				continue;
 			}
-			cal1.printCalendar(year, month, weekday);
+			cal1.printCalendar(year, month);
 		}
 		System.out.println("Bye~");
 		scanner.close();
