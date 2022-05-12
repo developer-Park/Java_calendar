@@ -11,10 +11,9 @@ public class Sum {
 		String[] splitedValue = input.split(" ");
 		int first = Integer.parseInt(splitedValue[0]);
 		int second = Integer.parseInt(splitedValue[1]);
-		
+
 		System.out.println("Two number's sum result  =" + (first + second));
-		
-		
+
 	}
 
 }
